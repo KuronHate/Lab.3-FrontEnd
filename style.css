@@ -1,0 +1,99 @@
+body {
+    background-color: #f3f2f3;
+    color: #000000;
+}
+
+#container-float {
+    background-color: darkgray;
+    text-align: center;
+    height: 500px;
+}
+
+#text1 {
+    background-color: cyan;
+    float: right;
+
+    width: 66.66%;
+    height: 50px;
+}
+
+#text2 {
+    background-color: yellow;
+    float: right;
+
+    width: 66.66%;
+    height: 400px;
+}
+
+#text3 {
+    background-color: orange;
+    float: left;
+
+    width: 66.66%;
+    height: 50px;
+}
+
+#image1 {
+    background-color: limegreen;
+    float: left;
+
+    width: 33.33%;
+    height: 450px;
+}
+
+#image2 {
+    background-color: purple;
+    float: right;
+
+    width: 33.33%;
+    height: 50px;
+}
+
+#container-flex-column {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: darkgray;
+    text-align: center;
+    height: 450px;
+}
+
+#container-flex-row {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkgray;
+    text-align: center;
+    height: 50px;
+}
+
+#text11 {
+    background-color: cyan;
+    width: 66.66%;
+    height: 11.11%;
+}
+
+#text12 {
+    background-color: yellow;
+    width: 66.66%;
+    height: 88.88%;
+}
+
+#text13 {
+    background-color: orange;
+    flex: 2;
+    height: 50px;
+}
+
+#image11 {
+    background-color: limegreen;
+    width: 33.33%;
+    height: 100%;
+}
+
+#image12 {
+    background-color: purple;
+    flex: 1;
+    height: 50px;
+}
